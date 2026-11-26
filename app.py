@@ -34,7 +34,7 @@ diff =st.selectbox("Select Diffculty level",[
 
 
 if st.button("Generate Interview Question"):
-     prompt ="Generate 5 interview questions for the role " + role + "with" + diff +"difficulty")
+     prompt ="Generate 5 interview questions for the role " + role + "with" + diff +"difficulty"
      response = client.chat.completions.create(
           model="openai/gpt-oss-120b",
           messages=[
