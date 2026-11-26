@@ -18,7 +18,7 @@ except (KeyError,FileNotFoundError):
 
 role=st.selectbox("Select Job Role",[
      "Python Developer",
-     "Java Developer"'
+     "Java Developer",
      "Data Analyst",
      "machine learning engineer",
      "software Engineer",
