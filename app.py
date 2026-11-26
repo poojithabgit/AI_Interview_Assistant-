@@ -31,7 +31,7 @@ if st.button("Generate Interview Question"):
      response = client.chat.completions.create(
           model="openai/gpt-oss-120b",
           messages=[
-                   {"role" : "system","content" :"You are an expert technical Interviewer},
+                   {"role" : "system","content" :"You are an expert technical Interviewer"},
                 {"role":"user","content": prompt}
           ]
      )
